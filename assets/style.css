@@ -123,3 +123,34 @@
     background-color: rgba(244, 140, 76, 0.485);
 }
 /* donate plan section end */
+
+/* lives donation area start */
+.lives_donation_contents {
+    display: flex;
+}
+
+.half-width{
+    width: 40%;
+    margin: 0px 5%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.donation_content p {
+    margin: 50px 0px;
+}
+.donation_content h1 {
+    font-size: 3rem;
+}
+.donation_content img {
+    border-radius: 20px;
+}
+/* lives donation area end */
+/* lives suvive area end */
+.suvive_donation_contents{
+    display: flex;
+}
+
+/* lives suvive area end */
