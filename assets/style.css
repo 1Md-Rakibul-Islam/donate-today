@@ -1,6 +1,7 @@
-*{
+body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    background-color: whitesmoke;
 }
 
 .container{
@@ -87,6 +88,7 @@
 
 .donate_today input{
     border-style: none;
+    background-color: whitesmoke;
 
 }
 
@@ -154,3 +156,58 @@
 }
 
 /* lives suvive area end */
+
+
+ /* subscribe section start  */
+ .subscribe_box{
+    background-color: antiquewhite;
+    width: 50%;
+    margin: auto;
+    padding: 80px 100px;
+    text-align: center;
+ }
+
+ .subscribe_box input{
+    width: 300px;
+    height: 60px;
+    background-color: gainsboro;
+    border-style: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ }
+
+ #subscribe-btn{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 15px 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 5px;
+}
+
+ /* subscribe section end  */
+
+ /* footer area start*/
+ footer{
+    width: 100vw;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(4, 4, 21);
+    margin-top: 100px;
+    border-top-left-radius: 200px;
+ }
+ footer h3{
+    color: wheat;
+    font-size: smaller;
+
+ }
+ footer h1{
+    color: tomato;
+    padding-top: 100px;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+ }
+ /* footer area end*/
