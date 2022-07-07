@@ -85,6 +85,14 @@ body{
     border-radius: 10px;
 }
 
+.donate_taka:hover {
+    border: 5px solid tomato;
+}
+
+/* #donate_taka_2{
+    border: 5px solid tomato;
+} */
+
 
 .donate_today input{
     border-style: none;
@@ -161,9 +169,27 @@ body{
 
 /* lives suvive area end */
 
+#causes_header{
+    font-size: 30px;
+}
+
+.our_causes_contents{
+    display: flex;
+    width: 32%;
+    padding: 15px;
+}
+.our_causes img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.our_causes{
+    width: 400px;
+    margin: 0px 5%;
+}
 
  /* subscribe section start  */
- .subscribe_box{
+ form{
     background-color: antiquewhite;
     width: 50%;
     margin: auto;
@@ -171,7 +197,7 @@ body{
     text-align: center;
  }
 
- .subscribe_box input{
+ form input{
     width: 300px;
     height: 65px;
     background-color: gainsboro;
@@ -188,6 +214,7 @@ body{
     padding: 15px 25px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-style: none;
 }
 
  /* subscribe section end  */
