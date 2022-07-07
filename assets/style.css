@@ -11,7 +11,7 @@ body{
 .section_header h1{
     font-size: 40px;
     color: black;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -95,12 +95,15 @@ body{
 .donate_today hr{
     width: 500px;
     color: gray;
-    margin: 20px auto 100px;
+    margin: 10px auto 100px;
 }
 
 /* donate today section end */
 
 /* donate plan section start */
+.donate_plan{
+    background-color:rgba(202, 149, 131, 0.322) ;
+}
 .donate_contents{
     display: flex;
 }
@@ -150,7 +153,8 @@ body{
     border-radius: 20px;
 }
 /* lives donation area end */
-/* lives suvive area end */
+
+/* lives suvive area start */
 .suvive_donation_contents{
     display: flex;
 }
@@ -169,7 +173,7 @@ body{
 
  .subscribe_box input{
     width: 300px;
-    height: 60px;
+    height: 65px;
     background-color: gainsboro;
     border-style: none;
     border-top-left-radius: 10px;
@@ -184,7 +188,6 @@ body{
     padding: 15px 25px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: 5px;
 }
 
  /* subscribe section end  */
@@ -211,3 +214,4 @@ body{
     font-size: 2.5rem;
  }
  /* footer area end*/
+ 
